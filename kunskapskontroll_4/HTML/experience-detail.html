@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>PROJECTS</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="/CSS/header.css" />
+
+    <link rel="stylesheet" href="/CSS/color.css" />
+
+    <link rel="stylesheet" href="/CSS/experience-detail.css" />
+
+    <link rel="stylesheet" href="/CSS/lightbox.css" />
+  </head>
+
+  <body>
+    <header class="head-nav">
+      <div>
+        <!-- <img src="/assets/Vattenstämpel Skottes FI_2020.svg" alt="logo" /> -->
+
+        <div class="menu">
+          <span></span>
+        </div>
+
+        <nav class="navbar-menu">
+          <ul class="menu-listing">
+            <li><a class="head-link" href="/HTML/index.html">home</a></li>
+            <li>
+              <a class="head-link" href="/HTML/experience.html">experience</a>
+            </li>
+            <li><a class="head-link" href="/HTML/contact.html">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a
+            href="/assets/shadow.jpg"
+            data-lightbox="models1"
+            data-title="ZUISHI-TO GO FAR IS TO RETURN"
+          >
+            <img src="/assets/shadow.jpg" alt="man looking to the left" />
+          </a>
+        </div>
+
+        <div class="swiper-slide">
+          <a
+            href="/assets/port-4.jpg"
+            data-lightbox="models2"
+            data-title="SUNWAVE"
+          >
+            <img src="/assets/port-4.jpg" alt="kvällning på stranden" />
+          </a>
+        </div>
+
+        <div class="swiper-slide">
+          <a
+            href="/assets/port-3.jpg"
+            data-lightbox="models3"
+            data-title="EVERYDAY BUDDHA"
+          >
+            <img src="/assets/port-3.jpg" alt="radhus på natten" />
+          </a>
+        </div>
+
+        <div class="swiper-slide">
+          <a
+            href="/assets/port-2 2.jpg"
+            data-lightbox="models4"
+            data-title="DANCE OF DARKNESS"
+          >
+            <img src="/assets/port-2 2.jpg" alt="dansar i mörkret" />
+          </a>
+        </div>
+
+        <div class="swiper-slide">
+          <a
+            href="/assets/port.jpg"
+            data-lightbox="models5"
+            data-title="ALONE TOGETHER"
+          >
+            <img src="/assets/port.jpg" alt="två personer på en kulle" />
+          </a>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      const swiper = new Swiper(".mySwiper", {
+        loop: true,
+
+        pagination: {
+          el: ".swiper-pagination",
+          type: "progressbar",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../lightbox2-dev/dist/js/lightbox-plus-jquery.js"></script>
+    <script src="../JS/header.js"></script>
+    <script>
+      lightbox.option({
+        showImageNumberLabel: true,
+      });
+    </script>
+  </body>
+</html>

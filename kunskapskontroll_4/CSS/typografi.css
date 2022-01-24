@@ -1,0 +1,19 @@
+:root {
+  --font-size-size-small: 1rem;
+  --font-size-size-medium: 1.5rem;
+  --font-size-size-large: 2rem;
+  --font-size-size-UltraLarge: 2.5rem;
+  --font-family-header: "Prata", "Helvetica";
+  --font-family-paragraf: "Lato", "Arial";
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-family-header);
+}
+
+p, input,label, a {
+  font-family: var(--font-family-paragraf);
+}
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prata&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prata&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="/CSS/header.css" />
+
+    <link rel="stylesheet" href="/CSS/footer.css" />
+
+    <link rel="stylesheet" href="/CSS/typografi.css" />
+
+    <link rel="stylesheet" href="/CSS/contact.css" />
+
+    <link rel="stylesheet" href="/CSS/color.css" />
+
+    <script type="module" src="/JS/header.js"></script>
+  </head>
+
+  <body class="form">
+    <header class="head-nav">
+      <div>
+        <div class="menu">
+          <span></span>
+        </div>
+
+        <nav class="navbar-menu">
+          <ul class="menu-listing">
+            <li><a class="head-link" href="/HTML/index.html">home</a></li>
+            <li>
+              <a class="head-link" href="/HTML/experience.html">experience</a>
+            </li>
+            <li><a class="head-link" href="/HTML/contact.html">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="contact-content">
+      <div>
+        <form action="action_page.php">
+          <label for="Name">First name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+            required
+          />
+          <label for="lname">Last name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+            required
+          />
+          <label for="text">Email</label>
+          <input type="email" placeholder="Write your email.." name="email" id="email" required />
+          <label for="number">Phone number</label>
+          <input type="number" placeholder="Write your phone number.." name="Phone number" id="phoneNumber" required />
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            required
+          ></textarea>
+          <input id="button" type="submit" value="Submit" />
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <ul class="social-media-links">
+        <li>
+          <img src="/assets/Vattenstämpel_Croppad_ Skottes FI_2021.png" alt="logo" />
+        </li>
+        <li>
+          <a href="https://www.facebook.com/david.skotte" target="_blank"
+            ><img src="/assets/facebook-brands.svg" alt="facebook-link"
+          /></a>
+        </li>
+        <li>
+          <a href="https://soundcloud.com/david-skotte" target="_blank"
+            ><img src="/assets/soundcloud-brands.svg" alt="soundcloud-link"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/david_skotte/" target="_blank"
+            ><img src="/assets/instagram-brands.svg" alt="instagram-link"
+          /></a>
+        </li>
+      </ul>
+      <h3>
+        Copyright © 2022 David Skotte <br />
+        All rights reserved.
+      </h3>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
